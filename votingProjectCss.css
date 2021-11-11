@@ -1,0 +1,98 @@
+#main-nav {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    border: solid 2px #f4f4f4;
+    width: 100%;
+    background-color: #c4c0c0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#main-nav li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+#main-body {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+#main-body p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+
+}
+
+.pollsList {
+    margin-top: 100px;
+    display: block;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+    border: #c4c0c0 solid 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c4c0c0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.pollsList a{
+    text-decoration: none;
+}
+
+.pollsList a:hover{
+    color: white;
+}
+
+#pollQnA {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    border: solid 3px grey;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#btn {
+    border: blue 1px solid;
+    font-size: 16px;
+    padding: 15px;
+    font-weight: 600;
+}
+
+
+#btn:hover {
+    cursor: pointer;
+    background-color: #f4f4f4;
+}
+
+.btnChoice {
+    border: blue 1px solid;
+    font-size: 16px;
+    padding: 15px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnChoice:hover {
+    cursor: pointer;
+    background-color: #f4f4f4;
+}
+
+.btnChoice:active{
+    background-color: green;
+}
